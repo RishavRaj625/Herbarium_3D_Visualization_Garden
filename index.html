@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-leaf-line nav__logo-icon"></i> HERBARIUM
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faqs" class="nav__link">FAQs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+            <!-- Search bar -->
+            <form class="nav__search">
+                <input type="text" class="nav__search-input" placeholder="Search..." aria-label="Search">
+                <button type="submit" class="nav__search-btn">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+
+            <!-- Filter Dropdown -->
+      <div class="dropdown">
+        <button class="dropdown__btn">Filter <i class="arrow down"></i></button>
+        <div class="dropdown__content">
+          <div class="dropdown__item">
+            <label>Medicinal Usages</label>
+            <ul>
+              <li><a href="#">Digestive</a></li>
+              <li><a href="#">Skin</a></li>
+              <li><a href="#">Immunity</a></li>
+            </ul>
+          </div>
+          <div class="dropdown__item">
+            <label><b>Region</b></label>
+            <ul>
+              <li><a href="#">Uttaranchal</a></li>
+              <li><a href="#">Eastern Ghats</a></li>
+              <li><a href="#">Western Ghat</a></li>
+            </ul>
+          </div>
+          <div class="dropdown__item">
+            <label>Types</label>
+            <ul>
+              <li><a href="#">Ayurveda</a></li>
+              <li><a href="#">Unani</a></li>
+              <li><a href="#">Siddha</a></li>
+              <li><a href="#">Naturopathy</a></li>
+              <li><a href="#">Homeopathy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Theme change button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="main">
+
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/herb2.png" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Ayurveda for <br />
+              Everyone Everyday
+            </h1>
+            <p class="home__description">
+              Herbarium - The official 3D Visiualization 
+              Garden under the Ministry of AYUSH
+            </p>
+            <a href="#about" class="button button--flex">
+              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+
+          <div class="home__social">
+            <span class="home__social-follow">Follow Us</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <img src="assets/img/who.jpg" alt="" class="about__img" />
+      
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Who we are ;)
+            </h2>
+      
+            <p class="about__description">
+              "All the features we offer👍"
+            </p>
+      
+            <div class="about__details">
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Intuitive interface with multimedia integration for enhanced learning.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Users can explore realistic 3D models of medicinal plants from all angles making it engaging, informative, and user-friendly.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Use the chatbot to inquire about specific medicinal plants. The chatbot can guide you through virtual tours.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Features like Bookmark, Cross platform sharing, Interactive Quiz, Search & Filter,
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                Our platform provide the knowledge of medicinal plants accessible to a wider audience, promoting awareness and understanding of traditional herbal practices.
+              </p>
+            </div>
+      
+            <a href="#" class="button--link button--flex">
+              View 3D Models <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== STEPS ====================-->
+      <section class="steps section container">
+        <div class="steps__bg">
+          <h2 class="section__title-center steps__title">
+            How to Interact with the Herbarium Chatbot
+          </h2>
+      
+          <div class="steps__container grid">
+            <div class="steps__card">
+              <div class="steps__card-number">01</div>
+              <h3 class="steps__card-title">Ask About Medicinal Plants</h3>
+              <p class="steps__card-description">
+                Use the chatbot to inquire about specific medicinal plants. It can provide details on plant names, medicinal uses, cultivation methods, and more.
+              </p>
+            </div>
+      
+            <div class="steps__card">
+              <div class="steps__card-number">02</div>
+              <h3 class="steps__card-title">Get Personalized Suggestions</h3>
+              <p class="steps__card-description">
+                Based on your needs, the chatbot will suggest plants that are beneficial for health concerns like immunity, skin care, digestion, and more.
+              </p>
+            </div>
+      
+            <div class="steps__card">
+              <div class="steps__card-number">03</div>
+              <h3 class="steps__card-title">Take Virtual Tours</h3>
+              <p class="steps__card-description">
+                The chatbot can guide you through virtual tours, highlighting plants for specific health topics such as mental well-being or respiratory health.
+              </p>
+            </div>
+          </div>
+          <div class="steps__action">
+            <a href="bot.html" class="button button--theme">Start Chatbot</0></a>
+          </div>
+        </div>
+      </section>
+
+<!--==================== STEPS2 ====================-->
+      <section class="steps section container">
+        <div class="steps__bg">
+          <h2 class="section__title-center steps__title">
+            Our Virtual Tours
+          </h2>
+      
+          <!-- Carousel Container -->
+          <div id="chatbotCarousel" class="carousel">
+            <div class="carousel__container">
+              <!-- Carousel Items with Images -->
+              <div class="carousel__item">
+                <img src="assets/img/skin.jpg" alt="Step 1" class="carousel__image" />
+                <h3>Step 1: Open the Chat</h3>
+                <p>Click the chatbot icon on the bottom right of your screen to start chatting.</p>
+              </div>
+              <div class="carousel__item">
+                <img src="assets/img/immunity (1).jpg" alt="Step 2" class="carousel__image" />
+                <h3>Step 2: Ask Questions</h3>
+                <p>Type your questions about medicinal plants, and the bot will provide accurate information.</p>
+              </div>
+              <div class="carousel__item">
+                <img src="assets/img/digestive.jpg" alt="Step 3" class="carousel__image" />
+                <h3>Step 3: Save Favorites</h3>
+                <p>Bookmark your favorite plants and medicinal tips provided by the chatbot.</p>
+              </div>
+            </div>
+      
+            <!-- Carousel Controls -->
+            <a class="carousel__control carousel__prev" onclick="moveCarousel(-1)">&#10094;</a>
+            <a class="carousel__control carousel__next" onclick="moveCarousel(1)">&#10095;</a>
+          </div>
+        </div>
+      </section>
+      
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="product section container" id="products">
+        <h2 class="section__title-center">
+          Commonly available <br />
+          Herbal plants
+        </h2>
+    
+        <p class="product__description">
+          Here are some selected plants from our showroom, which are most commonly used and  have a wide range of applications.
+        </p>
+    
+        <div class="product__container grid">
+          <article class="product__card">
+            <div class="product__circle"></div>
+            <img src="assets/img/tulsi1.png" alt="" class="product__img" />
+            <h3 class="product__title">Tulsi Plant</h3>
+            <span class="product__price">
+              𝘈𝘺𝘶𝘳𝘷𝘦𝘥𝘢</span>
+            <button class="button--flex product__button">
+              <i class="ri-share-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Ocimum sanctum<br> <b>Med Use- </b>Also known as Holy Basil, a revered plant in Ayurveda for immune-boosting properties.
+            </div>
+          </article>
+    
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/neem1.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Neem Plant</h3>
+            <span class="product__price">𝘈𝘺𝘶𝘳𝘷𝘦𝘥𝘢</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-share-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Azadirachta indica <br> <b>Med Use- </b> A highly valued herb in Ayurveda, known for its potent antimicrobial, and anti-inflammatory properties.
+            </div>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/alovera1.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Aloe Vera Plant</h3>
+            <span class="product__price">𝘏𝘰𝘮𝘦𝘰𝘱𝘢𝘵𝘩𝘺</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-share-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Aloe barbadensis <br> <b>Med Use- </b> A versatile plant prominently featured in Ayurveda for cooling, healing, and rejuvenating properties.
+            </div>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/ashwa.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Ashwagandha Plant</h3>
+            <span class="product__price">
+              𝘚𝘪𝘥𝘥𝘩𝘢</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-share-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Withania somnifera <br> <b>Med Use- </b>A prominent herb in Ayurveda, known for its adaptogenic properties help reduce stress, enhance vitality, and support overall well-being.
+            </div>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/turmeric.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Turmeric Plant</h3>
+            <span class="product__price">
+              𝘜𝘯𝘢𝘯𝘪</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-bookmark-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Curcuma longa <br> <b>Med Use- </b>A cornerstone of Ayurveda, renowned for its powerful anti-inflammatory, antioxidant, and healing properties.
+            </div>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img src="assets/img/ashoka.png" alt="" class="product__img" />
+
+            <h3 class="product__title">Ashoka Plant</h3>
+            <span class="product__price">𝘚𝘪𝘥𝘥𝘩𝘢</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-bookmark-fill"></i>
+            </button>
+            <div class="product__description-content">
+              <B>Botanical- </B>Saraca asoca <br> <b>Med Use- </b>A key herb in Ayurveda, celebrated for its benefits in supporting women's health, particularly in managing menstrual disorders and uterine issues.
+            </div>
+          </article>
+          <a href="#products" class="button button--flex">
+            See More.... <i class="ri-arrow-right-down-line button__icon"></i>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== QUESTIONS ====================-->
+      <section class="questions section" id="faqs">
+        <h2 class="section__title-center questions__title container">
+          Some common questions <br />
+          were often asked
+        </h2>
+
+        <div class="questions__container container grid">
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Which can plants improve digestive health?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Plants like Triphala, Ajwain (Carom seeds), and Bael are recognized for 
+                  their digestive benefits. Triphala aids in bowel regulation, 
+                  Ajwain helps alleviate indigestion, and Bael supports 
+                  gut health by reducing inflammation in the intestines.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Which plants are best for boosting immunity?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Tulsi (Holy Basil), Ashwagandha, and Giloy are well-known for 
+                  their immune-boosting properties. Tulsi acts as an antioxidant, 
+                  Ashwagandha helps the body adapt to stress, and Giloy improves 
+                  immune response by detoxifying the system.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  What are some natural plants for skin care?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Plants like Neem, Turmeric, and Aloe Vera for skin care. 
+                  Neem purifies the skin, Turmeric has anti-inflammatory 
+                  properties, and Aloe Vera soothes and hydrates, promoting 
+                  overall skin health.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">Can these be grown at home, and how to use?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Plants such as Tulsi, Aloe Vera, and Neem, can be easily 
+                  grown at home. Tulsi can be used in teas to boost immunity, 
+                  Aloe Vera can be applied topically for skin care or consumed
+                  for digestive health, and Neem leaves can be used for skin 
+                  treatments or as a natural disinfectant
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">What plants can improve mental health?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Brahmi is another powerful herb that enhances cognitive function, 
+                  memory, and concentration while calming the mind. Shankhpushpi is 
+                  also used for its ability to improve mental clarity and reduce stress.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Why are gnats flying around my plant?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Plants are easy way to add color energy and transform your
+                  space but which planet is for you. Choosing the right plant.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section container" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__box">
+            <h2 class="section__title">
+              Reach out to us today <br />
+              via any of the given <br />
+              information
+            </h2>
+
+            <div class="contact__data">
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Call us for instant support</h3>
+                <span class="contact__description">
+                  <i class="ri-phone-line contact__icon"></i>
+                  011-24651942
+                </span>
+              </div>
+
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Write us by mail</h3>
+                <span class="contact__description">
+                  <i class="ri-mail-line contact__icon"></i>
+                  webmanager-ayush@gov.in
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <input type="email" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Email</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="text" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__content contact__area">
+                <textarea
+                  name="message"
+                  placeholder=" "
+                  class="contact__input"
+                ></textarea>
+                <label for="" class="contact__label">Image & Plant Name</label>
+              </div>
+            </div>
+
+            <button class="button button--flex">
+              Send Message
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="chatbot-container">
+      <!-- Chatbot Button -->
+      <div class="chatbot-button" id="chatbotButton">
+        <i class="ri-message-3-line"></i> Chat
+      </div>
+    
+      <!-- Chat Window -->
+      <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+          <span>Chat with us!</span>
+          <button class="chat-close" id="closeChat">✕</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+          <div class="chat-content" id="chatContent">
+            <!-- Messages will be injected here -->
+          </div>
+        </div>
+        <div class="chat-footer">
+          <input type="text" id="userMessage" placeholder="Type a message...">
+          <button id="sendMessage">Send</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <i class="ri-leaf-line footer__logo-icon"></i> HERBARIUM
+          </a>
+
+          <h3 class="footer__title">
+            Subscribe to our newsletter <br />
+            to stay update
+          </h3>
+
+          <div class="footer__subscribe">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="footer__input"
+            />
+
+            <button class="button button--flex footer__button">
+              Subscribe
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Address</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">Ministry of Ayush, Ayush Bhawan,</li>
+            <li class="footer__information">B Block, GPO Complex,</li>
+            <li class="footer__information">INA, New Delhi – 110023</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact Us</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">1800-11-22-02 (9:00 AM to 5:30 PM) (IST) <br>
+              ph: 011-24651942</li>
+
+            <div class="footer__social">
+              <a href="https://www.facebook.com/" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://twitter.com/" class="footer__social-link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Ministry of AYUSH</h3>
+
+          <div class="footer__cards">
+            <img src="assets/img/AYUSH.png" alt="" class="footer__card" />
+            <!-- <img src="assets/img/card2.png" alt="" class="footer__card" />
+            <img src="assets/img/card3.png" alt="" class="footer__card" />
+            <img src="assets/img/card4.png" alt="" class="footer__card" /> -->
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Team Elite</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
